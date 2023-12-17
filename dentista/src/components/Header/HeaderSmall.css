@@ -1,7 +1,8 @@
 
 .zonaMobile{
-    background-color: rgba(0, 0, 255, 0.089);
+    background-color: rgba(0, 132, 255, 0.329);
     height: 100vh;
+    z-index: 10;
     
 }
 
@@ -13,7 +14,7 @@ align-items: flex-start;
 border-radius: 0px 0px 10px 10px;
 z-index: 10;
 position: relative;
-width: 40vw;
+width: 60vw;
 
 
 }
@@ -51,6 +52,7 @@ width: 40vw;
     background-color: var(--miColor);
     width: 60vw;
  color: white;
+ color:var(--miColor);
   height: 25px;
     gap: 10px;
     display: flex;
@@ -60,6 +62,12 @@ width: 40vw;
    padding: 0 10px;
 }
 .smallDos section p{
+    color:var(--miColor);
+    color: white;
+margin-top: 0;
+}
+.smallDos section span{
+    color:var(--miColor);
     color: white;
 margin-top: 0;
 }
@@ -97,7 +105,7 @@ margin-top: 0;
  
 }
 .figureNav span,.figureNav p{
- background-color: rgb(177, 179, 194);
+ background-color: rgb(229, 230, 236);
  border-radius: 0px 0px 10px 0px;
  height: 50px;
  display: flex;

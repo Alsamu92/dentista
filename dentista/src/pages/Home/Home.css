@@ -1,0 +1,112 @@
+.mainHome{
+    max-width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+    margin: 0 auto;
+    background-color: white;
+    color: var(--miColor);
+}
+
+.mainImage {
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://res.cloudinary.com/djfkchzyq/image/upload/v1702802280/ai4zylgncanq0khi4d93.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: 1px solid #ccc; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.infoDental h3{
+   font-size: 16px;
+
+}
+.infoDental h1{
+   font-size: 32px;
+
+}
+.infoDental p{
+  color: black;
+  font-weight: 400;
+
+}
+.infoDental button{
+   font-size: 20px;
+   padding: 5px;
+   border-radius: 10px;
+   border: none;
+   background-color: var(--miColor);
+   margin: 0 50px;
+
+}
+
+.ofertaDental{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 350px;
+}
+.check{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ofertaCircular{
+    background-color:rgb(32, 166, 247);
+    border-radius: 50%;
+    width: 15vw; 
+    min-width: 200px;
+    height: 15vw;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.ofertaCircular p{
+    color: white;
+    height: 20px;
+    margin-bottom: 25px;
+}
+.numeroOferta{
+font-size: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.letraPeque{
+    font-size: 10px;
+    height: 10px;
+    padding: 2px;
+    color: white;
+}
+.ofertaTop{
+    display: flex;
+    gap: 20px;
+}
+
+.derCita,.derLlamamos{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+}
+.derLlamamos{
+background-color: rgba(255, 255, 255, 0.767);
+color:var(--miColor);
+border: 2px solid var(--miColor);
+font-weight: bold;
+}
+.derCita{
+background-color: var(--miColor);
+
+border: 2px solid var(--miColor);
+font-weight: bold;
+}

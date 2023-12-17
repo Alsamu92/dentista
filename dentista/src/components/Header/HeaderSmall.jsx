@@ -34,7 +34,9 @@ call
               <p>Home</p>
             </figure>
             <figure className="figureNav">
-              <span class="material-symbols-outlined">edit_note</span>
+            <span class="material-symbols-outlined">
+badge
+</span>
               <p>Método DentiVital</p>
             </figure>
             <figure className="figureNav">

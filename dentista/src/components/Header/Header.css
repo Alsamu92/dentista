@@ -5,13 +5,14 @@ span,p{
 
 .headerDesktop{
     display: flex;
-    width: 100vw;
+    width: 100%;
     height:15vh ;
     flex-direction: column;
     background-color:white;
 }
 li{
     list-style: none;
+    text-align: center;
 }
 .navUno{
     display: flex;
@@ -41,10 +42,18 @@ li{
     color: var(--miColor);
     font-weight: 700;
 }
+.navDos ul li:hover{
+
+   
+    cursor: pointer;
+
+  
+}
 
 .mainNav{
     display: flex;
     gap: 2vw;
+    
 }
 
 .pideCita{
