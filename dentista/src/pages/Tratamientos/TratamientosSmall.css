@@ -1,0 +1,9 @@
+.tratSmall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 5vw;
+    background-color: white;
+}

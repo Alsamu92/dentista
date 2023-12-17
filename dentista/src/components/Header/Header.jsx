@@ -1,20 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import"./Header.css"
 import { HeaderSmall } from './HeaderSmall';
+import { NavLink } from 'react-router-dom';
+import { useSize } from '../../context/sizeContext';
 export const Header = () => {
-    const [tamanoPantalla, setTamanoPantalla] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setTamanoPantalla(window.innerWidth);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  const{tamanoPantalla}=useSize()
+  
   return (<>
   {tamanoPantalla > 768 ?<header className='headerDesktop'>
         <nav className="navUno">
@@ -37,7 +28,9 @@ export const Header = () => {
             <ul className='mainNav'>
                 <li>Pedir Cita</li>
                 <li>Método DentiVital</li>
+                <NavLink to={"/tratamientos"}>
                 <li>Tratamientos</li>
+                </NavLink>
                 <li>Promociones</li>
                 <li>Clínicas</li>
                 <li>Blog</li>

@@ -7,12 +7,18 @@ span,p{
     display: flex;
     width: 100%;
     height:15vh ;
+    min-height:100px ;
     flex-direction: column;
     background-color:white;
 }
-li{
+li,a{
     list-style: none;
     text-align: center;
+    text-decoration: none;
+    
+}
+a{
+    color: var(--miColor);
 }
 .navUno{
     display: flex;

@@ -104,8 +104,11 @@ margin-top: 0;
 
  
 }
-.figureNav span,.figureNav p{
+.figureNav span,.figureNav a{
  background-color: rgb(229, 230, 236);
+ color:var(--miColor);
+ font-weight: bold;
+ text-decoration: none;
  border-radius: 0px 0px 10px 0px;
  height: 50px;
  display: flex;

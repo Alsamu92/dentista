@@ -1,6 +1,9 @@
 import React from "react";
 import "./Home.css";
 export const Home = () => {
+
+
+
   return (
     <div className="mainHome">
       <section className="mainImage">
@@ -9,18 +12,18 @@ export const Home = () => {
           <h1>Clínicas dentales <br/> DentiVital con<br/>  profesionales<br/>  certificados</h1>
           <p>Contamos con dentistas cualificados y certificados<br/> en una amplia gama de tratamientos dentales.</p>
           <div className="check">
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
 done
 </span>
             <p>Dentistas certificados</p>
           </div>
           <div className="check">
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
 done
 </span>
             <p>Clínicas modernas</p>
           </div>
-          <button>Pide tu cita gratis</button>
+          <button >Pide tu cita gratis</button>
         </div>
         <div className="ofertaDental">
           <div className="ofertaTop">
