@@ -1,10 +1,25 @@
 
-.zonaMobile{
+.zonaMobile {
     background-color: rgba(0, 132, 255, 0.329);
     height: 100vh;
     z-index: 10;
-    
-}
+    position: fixed;
+    top: 15vh;
+    left: -100%; /* Inicialmente fuera de la pantalla a la izquierda */
+    width: 100%;
+    animation: entradaDesdeIzquierda 0.5s ease-out forwards;
+  }
+  
+  @keyframes entradaDesdeIzquierda {
+    from {
+      left: -100%;
+    }
+  
+    to {
+      left: 0;
+    }
+  }
+  
 
 .navMobile{
 display: flex;
@@ -15,6 +30,7 @@ border-radius: 0px 0px 10px 10px;
 z-index: 10;
 position: relative;
 width: 60vw;
+;
 
 
 }

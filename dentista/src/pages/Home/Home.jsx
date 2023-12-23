@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
+import { useSize } from "../../context/sizeContext";
 export const Home = () => {
-
-
+  const{tamanoPantalla}=useSize()
 
   return (
     <div className="mainHome">
@@ -23,8 +23,10 @@ done
 </span>
             <p>Clínicas modernas</p>
           </div>
+        
           <button >Pide tu cita gratis</button>
         </div>
+        {tamanoPantalla > 768 &&
         <div className="ofertaDental">
           <div className="ofertaTop">
             <button className="derCita">PIDE TU CITA</button>
@@ -35,7 +37,7 @@ done
             <p>En tu tratamiento</p>
             <p className="letraPeque">Del 10 al 23 de Octubre*</p>
           </div>
-        </div>
+        </div>}
       </section>
     </div>
   );
